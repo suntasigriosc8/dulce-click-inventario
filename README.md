@@ -136,3 +136,7 @@ El pipeline se ejecutará automáticamente cuando se realice un `push` o un Pull
 
 
 Repositorio, flujo de ramas y CI básico en proceso de configuración.
+
+## Avance 2
+
+Se configuró el repositorio Git, el flujo de ramas y un pipeline básico de integración continua mediante GitHub Actions.
