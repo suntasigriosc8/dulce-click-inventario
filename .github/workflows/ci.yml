@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Verificar Python
+        run: python --version
+
+      - name: Verificar estructura
+        run: |
+          test -f README.md
+          test -f .gitignore
+          test -f requirements.txt
+          test -d src
+          test -d tests
+          echo "Estructura del proyecto verificada correctamente"
