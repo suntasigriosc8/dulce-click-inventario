@@ -1,3 +1,4 @@
+
 \# Dulce Click – Sistema de Gestión de Inventario
 
 
@@ -135,6 +136,3 @@ El pipeline se ejecutará automáticamente cuando se realice un `push` o un Pull
 
 
 Repositorio, flujo de ramas y CI básico en proceso de configuración.
-
-
-

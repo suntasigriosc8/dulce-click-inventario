@@ -15,3 +15,18 @@ env/
 .idea/
 
 *.log
+
+build/
+dist/
+.eggs/
+*.egg-info/
+
+.pytest_cache/
+.coverage
+
+instance/
+
+.ipynb_checkpoints
+.mypy_cache/
+
+.streamlit/secrets.toml
